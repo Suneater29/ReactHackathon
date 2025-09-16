@@ -160,7 +160,7 @@
       });
     }
   }
-})({"eBQ3q":[function(require,module,exports,__globalThis) {
+})({"fgT0v":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -24988,18 +24988,47 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>Hedder);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRouter = require("react-router");
+var _imageJpg = require("../images/image.jpg");
+var _imageJpgDefault = parcelHelpers.interopDefault(_imageJpg);
 var _hedderCss = require("../Hedder.css");
 function Hedder() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
         className: "navbar",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "logo",
-                children: "DegreeAuth"
-            }, void 0, false, {
+                className: "logoparent",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "image",
+                        children: [
+                            " ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: "bg.jpg",
+                                alt: "logo"
+                            }, void 0, false, {
+                                fileName: "components/Hedder.jsx",
+                                lineNumber: 9,
+                                columnNumber: 33
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/Hedder.jsx",
+                        lineNumber: 9,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "logo",
+                        children: "CheckMyDoc"
+                    }, void 0, false, {
+                        fileName: "components/Hedder.jsx",
+                        lineNumber: 10,
+                        columnNumber: 10
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "components/Hedder.jsx",
-                lineNumber: 6,
-                columnNumber: 9
+                lineNumber: 8,
+                columnNumber: 8
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                 className: "nav-links",
@@ -25009,7 +25038,7 @@ function Hedder() {
                         children: "Home"
                     }, void 0, false, {
                         fileName: "components/Hedder.jsx",
-                        lineNumber: 8,
+                        lineNumber: 13,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
@@ -25017,7 +25046,7 @@ function Hedder() {
                         children: "Verify"
                     }, void 0, false, {
                         fileName: "components/Hedder.jsx",
-                        lineNumber: 9,
+                        lineNumber: 14,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
@@ -25025,7 +25054,7 @@ function Hedder() {
                         children: "About"
                     }, void 0, false, {
                         fileName: "components/Hedder.jsx",
-                        lineNumber: 10,
+                        lineNumber: 15,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
@@ -25033,19 +25062,19 @@ function Hedder() {
                         children: "Contact"
                     }, void 0, false, {
                         fileName: "components/Hedder.jsx",
-                        lineNumber: 11,
+                        lineNumber: 16,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "components/Hedder.jsx",
-                lineNumber: 7,
+                lineNumber: 12,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "components/Hedder.jsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 9
     }, this);
 }
@@ -25058,7 +25087,7 @@ $RefreshReg$(_c, "Hedder");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react-router":"2jawN","../Hedder.css":"ccK49","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"ccK49":[function() {},{}],"7h6Pi":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react-router":"2jawN","../Hedder.css":"ccK49","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../images/image.jpg":"akivJ"}],"ccK49":[function() {},{}],"7h6Pi":[function(require,module,exports,__globalThis) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 function debounce(func, delay) {
@@ -27336,7 +27365,7 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"kyFnT":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"akivJ":[function() {},{}],"kyFnT":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$3019 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$3019.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -27378,17 +27407,44 @@ function Home() {
                 className: "hero",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        children: "Welcome to Degree Authentication Portal"
+                        children: "Welcome to "
                     }, void 0, false, {
                         fileName: "components/Home.jsx",
                         lineNumber: 12,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "Verify academic credentials securely and instantly."
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Home.jsx",
+                        lineNumber: 13,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: "CheckMyDoc"
                     }, void 0, false, {
                         fileName: "components/Home.jsx",
                         lineNumber: 13,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Home.jsx",
+                        lineNumber: 14,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Verify academic credentials securely and instantly."
+                    }, void 0, false, {
+                        fileName: "components/Home.jsx",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Home.jsx",
+                        lineNumber: 17,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Home.jsx",
+                        lineNumber: 18,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
@@ -27397,7 +27453,7 @@ function Home() {
                         children: "Verify Now"
                     }, void 0, false, {
                         fileName: "components/Home.jsx",
-                        lineNumber: 15,
+                        lineNumber: 19,
                         columnNumber: 9
                     }, this)
                 ]
@@ -27412,12 +27468,12 @@ function Home() {
                     children: "\xa9 2025 DegreeAuth | All Rights Reserved"
                 }, void 0, false, {
                     fileName: "components/Home.jsx",
-                    lineNumber: 19,
+                    lineNumber: 23,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "components/Home.jsx",
-                lineNumber: 18,
+                lineNumber: 22,
                 columnNumber: 7
             }, this)
         ]
@@ -27792,6 +27848,6 @@ $RefreshReg$(_c, "Contact");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../Contact.css":"4MRb6","./Hedder":"lfiEo","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4MRb6":[function() {},{}],"dRy26":[function() {},{}]},["eBQ3q","aiwHB"], "aiwHB", "parcelRequiree705", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../Contact.css":"4MRb6","./Hedder":"lfiEo","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"4MRb6":[function() {},{}],"dRy26":[function() {},{}]},["fgT0v","aiwHB"], "aiwHB", "parcelRequiree705", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=ReactHackathon.2002cba6.js.map

@@ -3,33 +3,54 @@
   /* width: 100%; */
   justify-content: space-between;
   align-items: center;
-  background: #2563eb;
+  /* background: #0a142b linear-gradient(rgb(21, 21, 51));   */
+  background-color: aqua;
   color: white;
   padding: 15px 40px;
   position: sticky;
   top: 0;
   width: 100vw;
   overflow-x: hidden;
+  height: 70px;
   /* border: solid black 3px; */
 }
 
 .logo {
+  /* background-image: url(logo.jpg); */
   font-size: 22px;
   font-weight: bold;
+  
+}
+.logoparent{
+  border: solid 1px black;
+  width: 500px;
+  
+  display: flex;
+  gap: 20px;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  /* gap: 20px; */
+  flex-direction: row;
+  /* row-gap: 400px; */
+  width: 400px;
+  /* border: solid black 1px; */
+  justify-content: space-around;
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 100;
+  font-size: 25px;
 }
 
 .nav-links a:hover {
   color: yellow;
+}
+.image{
+  width: 20px;
+  height: 20px;
 }

@@ -11,7 +11,8 @@ body, h1, h2, p, ul {
   color: aliceblue;
 } */
  body{
-    background: none;
+    background:url(bg4.jpg) no-repeat center center fixed;
+    background-size: cover;
  }
  *{
     padding: 0px;
@@ -65,16 +66,16 @@ body, h1, h2, p, ul {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
-  background: linear-gradient(to right, #2563eb, #1e40af);
+  /* background: linear-gradient(to right, #2563eb, #1e40af); */
   color: white;
   text-align: center;
   /* padding: 20px; */
 }
 
 .hero h1 {
-  font-size: 40px;
+  font-size: 50px;
   margin-bottom: 15px;
 }
 

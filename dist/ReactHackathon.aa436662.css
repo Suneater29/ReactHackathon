@@ -21,7 +21,7 @@ h1 {
   text-align: center;
   text-shadow: 1px 1px 10px #0003;
   margin-bottom: 30px;
-  font-size: 2.2rem;
+  font-size: 3rem;
   animation: 1s ease-in-out fadeInDown;
 }
 
@@ -30,7 +30,9 @@ h1 {
   background: #fff;
   border-radius: 15px;
   width: 100%;
-  max-width: 380px;
+  max-width: 450px;
+  margin-top: 20px;
+  margin-bottom: 1000px;
   padding: 40px 30px;
   animation: 1s ease-in-out fadeInUp;
   box-shadow: 0 8px 30px #00000026;
@@ -39,7 +41,7 @@ h1 {
 .upload-section p {
   color: #666;
   margin-bottom: 20px;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 select, input[type="file"] {
@@ -63,6 +65,7 @@ button {
   background: linear-gradient(135deg, #007bff, #00d4ff);
   border: none;
   border-radius: 25px;
+  margin-top: 10px;
   padding: 12px 25px;
   font-size: 1rem;
   transition: transform .2s, box-shadow .2s;
@@ -152,15 +155,43 @@ button:hover {
 
 .navbar {
   color: #fff;
-  background: #2563eb;
+  background-color: #0ff;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
+  height: 70px;
   padding: 15px 40px;
   display: flex;
   position: sticky;
   top: 0;
   overflow-x: hidden;
+}
+
+.logoparent {
+  border: 1px solid #000;
+  gap: 20px;
+  width: 500px;
+  display: flex;
+}
+
+.nav-links {
+  flex-direction: row;
+  justify-content: space-around;
+  width: 400px;
+  list-style: none;
+  display: flex;
+}
+
+.nav-links a {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.image {
+  width: 20px;
+  height: 20px;
 }
 
 body, h1, h2, p, ul {
@@ -169,7 +200,7 @@ body, h1, h2, p, ul {
 }
 
 body {
-  background: none;
+  background: url("bg4.0afda8b4.jpg") center / cover no-repeat fixed;
 }
 
 .home {
@@ -211,11 +242,10 @@ body {
 }
 
 .hero {
+  justify-content: top;
   color: #fff;
   text-align: center;
-  background: linear-gradient(to right, #2563eb, #1e40af);
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100%;
   height: 90vh;
@@ -224,7 +254,7 @@ body {
 
 .hero h1 {
   margin-bottom: 15px;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .hero p {
