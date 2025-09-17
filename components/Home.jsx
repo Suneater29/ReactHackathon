@@ -10,9 +10,10 @@ export default function Home() {
       {/* Hero Section */}
       <section id="home" className="hero">
         <h1>Welcome to </h1>
-          <br /><h1>CheckMyDoc</h1>
+          <br /><h1><strong>
+            <span className="brand-name">ProofPoint</span></strong></h1>
           <br />
-        <h2>Verify academic credentials securely and instantly.</h2>
+        <h2>Verify academic credentials securely and instantly</h2>
         {/* <a href="#verify" className="btn">Verify Now</a> */}
         <br />
         <br />

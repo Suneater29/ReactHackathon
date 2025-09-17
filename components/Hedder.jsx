@@ -6,8 +6,8 @@ export default function Hedder(){
         <nav className="navbar">
         
        <div className="logoparent">
-        <div className="image"> <img src="bg.jpg" alt="logo"  /></div>
-         <div className="logo">CheckMyDoc</div>
+        {/* <div className="image"> <img src="bg.jpg" alt="logo"  /></div> */}
+         <div className="logo">ProofPoint</div>
        </div>
         <ul className="nav-links">
           <Link to="/">Home</Link>

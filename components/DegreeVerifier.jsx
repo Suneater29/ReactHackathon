@@ -162,9 +162,9 @@ function App() {
 
     // Probability configuration
     const outcomeProbabilities = {
-      genuine: 0.6,
-      invalid: 0.3,
-      nodata: 0.1,
+      genuine: 0.0,
+      invalid: 0.0,
+      nodata: 1.0,
     };
 
     function weightedRandom(probabilities) {
@@ -190,7 +190,7 @@ function App() {
       if (outcome === "genuine") {
         setResult("✅ Document is genuine" + fileDetails);
       } else if (outcome === "invalid") {
-        setResult("❌ Document is invalid" + fileDetails);
+        setResult("❌ Document seems invalid" + fileDetails);
       } else {
         setResult("⚠ No matching data found" + fileDetails);
       }

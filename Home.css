@@ -32,7 +32,7 @@ body, h1, h2, p, ul {
   /* width: 100%; */
   justify-content: space-between;
   align-items: center;
-  background: #2563eb;
+  background: #4d7bdf;
   color: white;
   padding: 15px 40px;
   position: sticky;
@@ -117,3 +117,8 @@ body, h1, h2, p, ul {
   text-align: center;
   padding: 15px;
 }
+
+.brand-name {
+  color: #2c4090; /* Change this to any color you like */
+}
+

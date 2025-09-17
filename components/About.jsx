@@ -9,15 +9,14 @@ export default function About() {
       
       
       <header className="about-header">
-        <h1>About Our Document Authentication Website</h1>
+        <h1>About CheckMyDoc</h1>
       </header>
 
       <section className="about-section">
         <p>
-          Welcome to <strong>DegreeAuth</strong> – a secure platform designed to 
-          simplify and modernize the process of document and degree authentication. 
-          Our mission is to provide students, universities, and employers with a 
-          reliable way to verify academic credentials instantly.
+           A secure platform designed to simplify and modernize the process of 
+           document and degree authentication. Our mission is to provide students,
+           universities, and employers with a reliable way to verify academic credentials instantly.
         </p>
       </section>
 

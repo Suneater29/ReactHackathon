@@ -24792,9 +24792,9 @@ function App() {
         setResult('<div class="loader"></div>\u23F3 Verifying...');
         // Probability configuration
         const outcomeProbabilities = {
-            genuine: 0.6,
-            invalid: 0.3,
-            nodata: 0.1
+            genuine: 0.0,
+            invalid: 0.0,
+            nodata: 1.0
         };
         function weightedRandom(probabilities) {
             let r = Math.random();
@@ -24815,7 +24815,7 @@ function App() {
         </div>
       `;
             if (outcome === "genuine") setResult("\u2705 Document is genuine" + fileDetails);
-            else if (outcome === "invalid") setResult("\u274C Document is invalid" + fileDetails);
+            else if (outcome === "invalid") setResult("\u274C Document seems invalid" + fileDetails);
             else setResult("\u26A0 No matching data found" + fileDetails);
         }, 2500);
     };
@@ -24997,35 +24997,15 @@ function Hedder() {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "logoparent",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "image",
-                        children: [
-                            " ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: "bg.jpg",
-                                alt: "logo"
-                            }, void 0, false, {
-                                fileName: "components/Hedder.jsx",
-                                lineNumber: 9,
-                                columnNumber: 33
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/Hedder.jsx",
-                        lineNumber: 9,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "logo",
-                        children: "CheckMyDoc"
-                    }, void 0, false, {
-                        fileName: "components/Hedder.jsx",
-                        lineNumber: 10,
-                        columnNumber: 10
-                    }, this)
-                ]
-            }, void 0, true, {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "logo",
+                    children: "ProofPoint"
+                }, void 0, false, {
+                    fileName: "components/Hedder.jsx",
+                    lineNumber: 10,
+                    columnNumber: 10
+                }, this)
+            }, void 0, false, {
                 fileName: "components/Hedder.jsx",
                 lineNumber: 8,
                 columnNumber: 8
@@ -25087,7 +25067,7 @@ $RefreshReg$(_c, "Hedder");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react-router":"2jawN","../Hedder.css":"ccK49","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../images/image.jpg":"akivJ"}],"ccK49":[function() {},{}],"7h6Pi":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react-router":"2jawN","../images/image.jpg":"akivJ","../Hedder.css":"ccK49","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"akivJ":[function() {},{}],"ccK49":[function() {},{}],"7h6Pi":[function(require,module,exports,__globalThis) {
 "use strict";
 var Refresh = require("7422ead32dcc1e6b");
 function debounce(func, delay) {
@@ -27365,7 +27345,7 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"akivJ":[function() {},{}],"kyFnT":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"kyFnT":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$3019 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$3019.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -27419,7 +27399,20 @@ function Home() {
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        children: "CheckMyDoc"
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "brand-name",
+                                children: "ProofPoint"
+                            }, void 0, false, {
+                                fileName: "components/Home.jsx",
+                                lineNumber: 14,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "components/Home.jsx",
+                            lineNumber: 13,
+                            columnNumber: 21
+                        }, this)
                     }, void 0, false, {
                         fileName: "components/Home.jsx",
                         lineNumber: 13,
@@ -27427,24 +27420,24 @@ function Home() {
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "components/Home.jsx",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "Verify academic credentials securely and instantly."
+                        children: "Verify academic credentials securely and instantly"
                     }, void 0, false, {
                         fileName: "components/Home.jsx",
-                        lineNumber: 15,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                        fileName: "components/Home.jsx",
-                        lineNumber: 17,
+                        lineNumber: 16,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "components/Home.jsx",
                         lineNumber: 18,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "components/Home.jsx",
+                        lineNumber: 19,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
@@ -27453,7 +27446,7 @@ function Home() {
                         children: "Verify Now"
                     }, void 0, false, {
                         fileName: "components/Home.jsx",
-                        lineNumber: 19,
+                        lineNumber: 20,
                         columnNumber: 9
                     }, this)
                 ]
@@ -27468,12 +27461,12 @@ function Home() {
                     children: "\xa9 2025 DegreeAuth | All Rights Reserved"
                 }, void 0, false, {
                     fileName: "components/Home.jsx",
-                    lineNumber: 23,
+                    lineNumber: 24,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "components/Home.jsx",
-                lineNumber: 22,
+                lineNumber: 23,
                 columnNumber: 7
             }, this)
         ]
@@ -27523,7 +27516,7 @@ function About() {
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
                         className: "about-header",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            children: "About Our Document Authentication Website"
+                            children: "About CheckMyDoc"
                         }, void 0, false, {
                             fileName: "components/About.jsx",
                             lineNumber: 12,
@@ -27537,18 +27530,8 @@ function About() {
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                         className: "about-section",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: [
-                                "Welcome to ",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
-                                    children: "DegreeAuth"
-                                }, void 0, false, {
-                                    fileName: "components/About.jsx",
-                                    lineNumber: 17,
-                                    columnNumber: 22
-                                }, this),
-                                " \u2013 a secure platform designed to simplify and modernize the process of document and degree authentication. Our mission is to provide students, universities, and employers with a reliable way to verify academic credentials instantly."
-                            ]
-                        }, void 0, true, {
+                            children: "A secure platform designed to simplify and modernize the process of document and degree authentication. Our mission is to provide students, universities, and employers with a reliable way to verify academic credentials instantly."
+                        }, void 0, false, {
                             fileName: "components/About.jsx",
                             lineNumber: 16,
                             columnNumber: 9
@@ -27565,7 +27548,7 @@ function About() {
                                 children: "Why Choose Us?"
                             }, void 0, false, {
                                 fileName: "components/About.jsx",
-                                lineNumber: 25,
+                                lineNumber: 24,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27574,40 +27557,40 @@ function About() {
                                         children: "\u2714 Secure & encrypted verification system"
                                     }, void 0, false, {
                                         fileName: "components/About.jsx",
-                                        lineNumber: 27,
+                                        lineNumber: 26,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "\u2714 Fast and accurate results"
                                     }, void 0, false, {
                                         fileName: "components/About.jsx",
-                                        lineNumber: 28,
+                                        lineNumber: 27,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "\u2714 Trusted by universities and employers"
                                     }, void 0, false, {
                                         fileName: "components/About.jsx",
-                                        lineNumber: 29,
+                                        lineNumber: 28,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "\u2714 Easy to use for students & organizations"
                                     }, void 0, false, {
                                         fileName: "components/About.jsx",
-                                        lineNumber: 30,
+                                        lineNumber: 29,
                                         columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "components/About.jsx",
-                                lineNumber: 26,
+                                lineNumber: 25,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "components/About.jsx",
-                        lineNumber: 24,
+                        lineNumber: 23,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -27617,20 +27600,20 @@ function About() {
                                 children: "Our Vision"
                             }, void 0, false, {
                                 fileName: "components/About.jsx",
-                                lineNumber: 35,
+                                lineNumber: 34,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "We aim to eliminate fake degrees and certificates by creating a transparent and globally accessible authentication system. Every document verified through our platform is 100% authentic and backed by trusted sources."
                             }, void 0, false, {
                                 fileName: "components/About.jsx",
-                                lineNumber: 36,
+                                lineNumber: 35,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "components/About.jsx",
-                        lineNumber: 34,
+                        lineNumber: 33,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
@@ -27639,12 +27622,12 @@ function About() {
                             children: "Helping build a trustworthy future for education & employment."
                         }, void 0, false, {
                             fileName: "components/About.jsx",
-                            lineNumber: 45,
+                            lineNumber: 44,
                             columnNumber: 9
                         }, this)
                     }, void 0, false, {
                         fileName: "components/About.jsx",
-                        lineNumber: 44,
+                        lineNumber: 43,
                         columnNumber: 7
                     }, this)
                 ]

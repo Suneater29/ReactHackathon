@@ -7,7 +7,7 @@
 
 body, .app {
   color: #333;
-  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  background: linear-gradient(135deg, #709ae8 0%, #2575fc 100%);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -168,7 +168,6 @@ button:hover {
 }
 
 .logoparent {
-  border: 1px solid #000;
   gap: 20px;
   width: 500px;
   display: flex;
@@ -189,11 +188,6 @@ button:hover {
   text-decoration: none;
 }
 
-.image {
-  width: 20px;
-  height: 20px;
-}
-
 body, h1, h2, p, ul {
   margin: 0;
   padding: 0;
@@ -211,7 +205,7 @@ body {
 
 .navbar {
   color: #fff;
-  background: #2563eb;
+  background: #4d7bdf;
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
@@ -282,6 +276,10 @@ body {
   text-align: center;
   background: #2563eb;
   padding: 15px;
+}
+
+.brand-name {
+  color: #2c4090;
 }
 
 .about-container {
