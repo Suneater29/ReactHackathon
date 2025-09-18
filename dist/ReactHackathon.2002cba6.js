@@ -24793,8 +24793,8 @@ function App() {
         // Probability configuration
         const outcomeProbabilities = {
             genuine: 0.0,
-            invalid: 0.0,
-            nodata: 1.0
+            invalid: 1.0,
+            nodata: 0.0
         };
         function weightedRandom(probabilities) {
             let r = Math.random();
@@ -27713,7 +27713,7 @@ function Contact() {
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        children: "support@degreeauth.com"
+                                        children: "support@proofpoint.com"
                                     }, void 0, false, {
                                         fileName: "components/Contact.jsx",
                                         lineNumber: 22,

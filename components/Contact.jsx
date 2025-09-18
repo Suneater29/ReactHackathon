@@ -19,7 +19,7 @@ export default function Contact() {
       <section className="contact-info">
         <div className="info-box">
           <h3>Email</h3>
-          <p>support@degreeauth.com</p>
+          <p>support@proofpoint.com</p>
         </div>
         <div className="info-box">
           <h3>Phone</h3>

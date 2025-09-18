@@ -163,8 +163,8 @@ function App() {
     // Probability configuration
     const outcomeProbabilities = {
       genuine: 0.0,
-      invalid: 0.0,
-      nodata: 1.0,
+      invalid: 1.0,
+      nodata: 0.0,
     };
 
     function weightedRandom(probabilities) {
